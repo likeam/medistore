@@ -15,7 +15,7 @@ const navItems = [
 
 export default function Sidebar({ activeTab, setActiveTab }) {
   return (
-    <div className="w-56 bg-indigo-500 border-r border-gray-200 flex-shrink-0 no-print overflow-y-auto">
+    <div className="w-72 bg-indigo-500 border-r border-gray-200 flex-shrink-0 no-print overflow-y-auto">
       <div className="p-4 text-2xl font-bold text-white border-b">
         Zain Pharmacy
       </div>

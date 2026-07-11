@@ -55,8 +55,10 @@ function AppContent() {
     <div className="flex h-screen bg-gray-50 text-gray-800 font-sans">
       <Sidebar activeTab={activeTab} setActiveTab={setActiveTab} />
       <div className="flex-1 flex flex-col overflow-hidden">
-        <header className="bg-indigo-500 shadow-sm px-6 py-4 flex items-center justify-between no-print">
-          <h1 className="text-xl font-bold text-white">🩺 ZAIN PHARMACY POS</h1>
+        <header className="bg-indigo-500 shadow-sm px-6 py-24 flex items-center justify-between no-print">
+          <h1 className="text-4xl font-bold text-white">
+            🩺 ZAIN PHARMACY POS
+          </h1>
           <div className="text-sm text-gray-300">
             {new Date().toISOString().slice(0, 10)}
           </div>
