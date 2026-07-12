@@ -63,7 +63,7 @@ function AppContent() {
             {new Date().toISOString().slice(0, 10)}
           </div>
         </header>
-        <main className="flex-1 overflow-y-auto p-4 md:p-6 bg-gray-300">
+        <main className="flex-1 overflow-y-auto p-4 md:p-6 bg-indigo-300">
           <div className="fade-in">{renderTab()}</div>
         </main>
       </div>
