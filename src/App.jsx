@@ -52,7 +52,7 @@ function AppContent() {
   }
 
   return (
-    <div className="flex h-screen bg-gray-50 text-gray-800 font-sans">
+    <div className="flex h-screen bg-gray-100 text-gray-800 font-sans">
       <Sidebar activeTab={activeTab} setActiveTab={setActiveTab} />
       <div className="flex-1 flex flex-col overflow-hidden">
         <header className="bg-indigo-500 shadow-sm px-6 py-24 flex items-center justify-between no-print">
